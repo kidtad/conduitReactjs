@@ -19,7 +19,6 @@ import Launch from "@material-ui/icons/Launch";
 
 import "./Header.css";
 import { Style } from "../Style/Style";
-import { history } from "../../Helpers/history";
 
 function HideOnScroll(props) {
   const { children, window } = props;
