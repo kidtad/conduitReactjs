@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/conduitReactjs/static/css/main.ed97d07f.chunk.css",
-    "main.js": "/conduitReactjs/static/js/main.c73e0fcc.chunk.js",
-    "main.js.map": "/conduitReactjs/static/js/main.c73e0fcc.chunk.js.map",
+    "main.js": "/conduitReactjs/static/js/main.37d95356.chunk.js",
+    "main.js.map": "/conduitReactjs/static/js/main.37d95356.chunk.js.map",
     "runtime~main.js": "/conduitReactjs/static/js/runtime~main.0e57fe68.js",
     "runtime~main.js.map": "/conduitReactjs/static/js/runtime~main.0e57fe68.js.map",
-    "static/js/2.43d4a93a.chunk.js": "/conduitReactjs/static/js/2.43d4a93a.chunk.js",
-    "static/js/2.43d4a93a.chunk.js.map": "/conduitReactjs/static/js/2.43d4a93a.chunk.js.map",
+    "static/js/2.12015d92.chunk.js": "/conduitReactjs/static/js/2.12015d92.chunk.js",
+    "static/js/2.12015d92.chunk.js.map": "/conduitReactjs/static/js/2.12015d92.chunk.js.map",
     "index.html": "/conduitReactjs/index.html",
-    "precache-manifest.7331049a0060e52f8c1161a34f80a139.js": "/conduitReactjs/precache-manifest.7331049a0060e52f8c1161a34f80a139.js",
+    "precache-manifest.c555fad51c60526e2b4014e1e2122762.js": "/conduitReactjs/precache-manifest.c555fad51c60526e2b4014e1e2122762.js",
     "service-worker.js": "/conduitReactjs/service-worker.js",
     "static/css/main.ed97d07f.chunk.css.map": "/conduitReactjs/static/css/main.ed97d07f.chunk.css.map"
   }
