@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
-import { getProfile, clearProfile } from "../actions";
+import { getProfile, clearProfile } from "../../actions";
 import Banner from "./Banner";
 import ListArticle from "./ListArticle";
 const Profile = ({ match, auth, profile, getProfile, clearProfile }) => {

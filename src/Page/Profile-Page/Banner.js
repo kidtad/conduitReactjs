@@ -9,8 +9,8 @@ import Button from "@material-ui/core/Button";
 import {
   followArticle,
   unFollowArticle
-} from "../actions/favoriteFollow.action";
-import { history } from "../Helpers/history";
+} from "../../actions/favoriteFollow.action";
+import { history } from "../../Helpers/history";
 
 const useStyles = makeStyles(theme => ({
   margin: {

@@ -20,10 +20,10 @@ import Face from "@material-ui/icons/Face";
 import EmailOutlined from "@material-ui/icons/EmailOutlined";
 import LockOutlined from "@material-ui/icons/LockOutlined";
 
-import ButtonCustomer from "../components/ButtonCustomer/Button";
-import { Style } from "./../components/Style/Style";
-import { REGISTER } from "../Constants/index";
-import { loginRegister, clearMessege } from "../actions/index";
+import ButtonCustomer from "../../components/ButtonCustomer/Button";
+import { Style } from "../../components/Style/Style";
+import { REGISTER } from "../../Constants/index";
+import { loginRegister, clearMessege } from "../../actions/index";
 
 
 const useStyles = makeStyles(theme => Style.styleForm);

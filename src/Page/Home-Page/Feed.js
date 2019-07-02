@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 
-import { getFeed, clearListView } from "../actions";
+import { getFeed, clearListView } from "../../actions/index";
 import PreviewArticle from "./PreviewArticle";
-import Pagination from "../components/Pagination";
+import Pagination from "../../components/Pagination";
 
 function Feed(props) {
   const { getFeed, feed, clearListView } = props;

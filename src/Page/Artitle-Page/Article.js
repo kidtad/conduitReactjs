@@ -12,11 +12,11 @@ import LinearProgress from "@material-ui/core/LinearProgress";
 import CardHeader from "@material-ui/core/CardHeader";
 import Card from "@material-ui/core/Card";
 
-import { getArticle, clearArticle } from "../actions/index";
-import convertTime from "../Helpers/datePipe";
+import { getArticle, clearArticle } from "../../actions/index";
+import convertTime from "../../Helpers/datePipe";
 import IsAuthorArticle from "./IsAuthorArticle";
 import FooterArticle from "./FooterArticle";
-import { Style } from "../components/Style/Style";
+import { Style } from "../../components/Style/Style";
 
 const useStyles = makeStyles(() => Style.articlePageStyle);
 const StyledLink = styled(Link)`

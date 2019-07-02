@@ -3,14 +3,14 @@ import { Router, Route, Switch } from "react-router-dom";
 import { history } from "./../Helpers/history";
 
 import "./App.css";
-import Home from "../Home/index";
+import Home from "../Page/Home-Page/index";
 import Header from "../components/Header/Header";
-import Login from "../Login/Login";
-import Register from "../Register/Register";
-import EditArticle from "../Editor/EditArticle";
-import Profile from "../Profile";
-import Article from "./../Artitle/Article";
-import Settings from "../settingsPage/settings";
+import Login from "../Page/Login-Page/Login";
+import Register from "../Page/Register-Page/Register";
+import EditArticle from "../Page/Editor-Page/EditArticle";
+import Profile from "../Page/Profile-Page";
+import Article from "../Page/Artitle-Page/Article";
+import Settings from "../Page/Settings-Page/settings";
 
 function App() {
   return (

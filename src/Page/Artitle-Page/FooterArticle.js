@@ -26,10 +26,10 @@ import {
   addComment,
   deleteComment,
   clearComment
-} from "../actions/comment.action";
-import convertTime from "../Helpers/datePipe";
-import { Style } from "../components/Style/Style";
-import { history } from "../Helpers/history";
+} from "../../actions/comment.action";
+import convertTime from "../../Helpers/datePipe";
+import { Style } from "../../components/Style/Style";
+import { history } from "../../Helpers/history";
 
 const StyledLink = styled(NavLink)`
   text-decoration: none;

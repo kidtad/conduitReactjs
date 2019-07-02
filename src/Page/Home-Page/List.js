@@ -9,9 +9,9 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 
-import { getListView, clearListView } from "../actions";
+import { getListView, clearListView } from "../../actions/index";
 import PreviewArticle from "./PreviewArticle";
-import Pagination from "../components/Pagination";
+import Pagination from "../../components/Pagination";
 import Feed from "./Feed";
 import TagListPreview from "./TagListPreview";
 

@@ -19,11 +19,11 @@ import {
   clearMessege,
   clearArticle,
   editArticle
-} from "../actions/index";
-import { Style } from "../components/Style/Style";
+} from "../../actions/index";
+import { Style } from "../../components/Style/Style";
 import ChipInput from "material-ui-chip-input";
-import ButtonCustomer from "../components/ButtonCustomer/Button";
-import { Service } from "../Services/Services";
+import ButtonCustomer from "../../components/ButtonCustomer/Button";
+import { Service } from "../../Services/Services";
 
 const useStyles = makeStyles(theme => Style.styleForm);
 const themes = createMuiTheme(Style.muiThemes);

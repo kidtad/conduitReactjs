@@ -16,13 +16,13 @@ import Chip from "@material-ui/core/Chip";
 // material-ui-icons
 import FavoriteIcon from "@material-ui/icons/Favorite";
 
-import convertTime from "../Helpers/datePipe";
-import { history } from "../Helpers/history";
-import { Style } from "./../components/Style/Style";
+import convertTime from "../../Helpers/datePipe";
+import { history } from "../../Helpers/history";
+import { Style } from "../../components/Style/Style";
 import {
   favoriteArticle,
   unFavoriteArticle
-} from "../actions/favoriteFollow.action";
+} from "../../actions/favoriteFollow.action";
 
 const useStyles = makeStyles(theme => Style.Preview);
 

@@ -11,15 +11,15 @@ import AddCircle from "@material-ui/icons/AddCircle";
 import Favorite from "@material-ui/icons/Favorite";
 import Edit from "@material-ui/icons/Edit";
 import Delete from "@material-ui/icons/Delete";
-import { Style } from "../components/Style/Style";
+import { Style } from "../../components/Style/Style";
 import {
   favoriteArticle,
   unFavoriteArticle,
   followArticle,
   unFollowArticle
-} from "../actions/favoriteFollow.action";
-import { history } from "../Helpers/history";
-import { deleteArticle } from "../actions/index";
+} from "../../actions/favoriteFollow.action";
+import { history } from "../../Helpers/history";
+import { deleteArticle } from "../../actions/index";
 
 const styles = () => Style.authorStyle;
 

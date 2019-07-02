@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 
-import { getListView, clearListView } from "../actions";
-import PreviewArticle from "../Home/PreviewArticle";
-import Pagination from "../components/Pagination";
+import { getListView, clearListView } from "../../actions";
+import PreviewArticle from "../Home-Page/PreviewArticle";
+import Pagination from "../../components/Pagination";
 
 function MyArticles(props) {
   const { list, username, clearListView, getListView } = props;

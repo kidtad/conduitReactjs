@@ -18,10 +18,10 @@ import InputAdornment from "@material-ui/core/InputAdornment";
 import Face from "@material-ui/icons/Face";
 import EmailOutlined from "@material-ui/icons/EmailOutlined";
 
-import ButtonCustomer from "../components/ButtonCustomer/Button";
-import { loginRegister, clearMessege } from "../actions/index";
-import { Style } from './../components/Style/Style';
-import { LOGIN } from "../Constants/index";
+import ButtonCustomer from "../../components/ButtonCustomer/Button";
+import { loginRegister, clearMessege } from "../../actions/index";
+import { Style } from '../../components/Style/Style';
+import { LOGIN } from "../../Constants/index";
 
 
 

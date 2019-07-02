@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 
 import PreviewArticle from "./PreviewArticle";
-import Pagination from "../components/Pagination";
+import Pagination from "../../components/Pagination";
 
 function TagListPreview(props) {
   const renderList = () => {

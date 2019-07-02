@@ -5,8 +5,8 @@ import { connect } from "react-redux";
 import { makeStyles } from "@material-ui/core/styles";
 import Chip from "@material-ui/core/Chip";
 
-import { getTagList, getListView } from "../actions/index";
-import { Style } from "./../components/Style/Style";
+import { getTagList, getListView } from "../../actions/index";
+import { Style } from "../../components/Style/Style";
 
 const useStyles = makeStyles(() => Style.tag);
 
