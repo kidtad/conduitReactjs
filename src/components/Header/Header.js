@@ -19,8 +19,7 @@ import Launch from "@material-ui/icons/Launch";
 
 import "./Header.css";
 import { Style } from "../Style/Style";
-import {history} from '../../Helpers/history'
-
+import { history } from "../../Helpers/history";
 
 function HideOnScroll(props) {
   const { children, window } = props;
@@ -66,10 +65,15 @@ function Header(props) {
                       Settings
                     </div>
                   </NavLink>
-                  <div className="header-item" onClick={() => history.push(`/profile/${auth.user.user.username}`)}>
-                    <img src={auth.user.user.image} alt="" />
-                    {auth.user.user.username}
-                  </div>
+                  <NavLink
+                    to={`/profile/${auth.user.user.username}`}
+                    activeClassName="selected"
+                  >
+                    <div className="header-item">
+                      <img src={auth.user.user.image} alt="" />
+                      {auth.user.user.username}
+                    </div>
+                  </NavLink>
                 </div>
               </div>
             )}
