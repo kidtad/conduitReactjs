@@ -18,13 +18,13 @@ function App() {
       <div className="App">
         <Header />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/register" component={Register} />
-          <Route exact path="/editor/:slug?" component={EditArticle} />
-          <Route exact path="/profile/:user" component={Profile} />
-          <Route exact path="/article/:slug" component={Article} />
-          <Route exact path="/settings" component={Settings} />
+          <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
+          <Route exact path={`${process.env.PUBLIC_URL}/login`} component={Login} />
+          <Route exact path={`${process.env.PUBLIC_URL}/register`} component={Register} />
+          <Route exact path={`${process.env.PUBLIC_URL}/editor/:slug?`} component={EditArticle} />
+          <Route exact path={`${process.env.PUBLIC_URL}/profile/:user`} component={Profile} />
+          <Route exact path={`${process.env.PUBLIC_URL}/article/:slug`} component={Article} />
+          <Route exact path={`${process.env.PUBLIC_URL}//settings`} component={Settings} />
         </Switch>
       </div>
     </Router>
