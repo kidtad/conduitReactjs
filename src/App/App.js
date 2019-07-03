@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter , Route, Switch } from "react-router-dom";
+import { Router  , Route, Switch } from "react-router-dom";
 import { history } from "./../Helpers/history";
 
 import "./App.css";
@@ -14,7 +14,7 @@ import Settings from "../Page/Settings-Page/settings";
 
 function App() {
   return (
-    <HashRouter  history={history}>
+    <Router history={history}>
       <div className="App">
         <Header />
         <Switch>
@@ -27,7 +27,7 @@ function App() {
           <Route exact path={`${process.env.PUBLIC_URL}/settings`} component={Settings} />
         </Switch>
       </div>
-    </HashRouter >
+    </Router >
   );
 }
 
