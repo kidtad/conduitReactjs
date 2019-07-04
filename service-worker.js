@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/conduitReactjs/precache-manifest.e360cbe24374a8095db5bd87c44c8bbe.js"
+  "/conduitReactjs/precache-manifest.6994febc4a97dea1e7292dff74399956.js"
 );
 
 self.addEventListener('message', (event) => {
